@@ -1,0 +1,81 @@
+#contact {
+    background-image: url(/assets/images/Background_Contacts.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 128px;
+
+    h3 {
+        font: var(--subtitle);
+        color: var(--main-purple);
+    }
+
+    h2 {
+        font: var(--title-md);
+        color: var(--base-gray-600);
+        margin-top: 8px;
+    }
+
+    p {
+        font: var(--text-md);
+        color: var(--base-gray-500);
+        margin-top: 8px;
+    }
+}
+
+.links {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 48px;
+    margin-bottom: 200px;
+    max-width: 400px;
+    row-gap: 16px;
+}
+
+.social-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 0;
+    background-color: var(--base-gray-300);
+    border-radius: 8px;
+    padding: 20px;
+
+    .social-name {
+        display: flex;
+        align-items: center;
+
+        span {
+            font: 500 1rem/140% 'Maven Pro', sans-serif;
+        }
+    }
+}
+
+.fa-brands, .fa-regular {
+    font-size: 28px;
+    margin-right: 12px;
+    color: var(--base-gray-400);
+    transition: color 0.3s ease;
+}
+
+a:hover .fa-brands {
+    color: var(--main-blue);
+}
+
+a:hover .fa-solid {
+    color: var(--main-blue);
+}
+
+a:hover .fa-regular {
+    color: var(--main-blue);
+}

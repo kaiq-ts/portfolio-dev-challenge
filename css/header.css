@@ -1,0 +1,113 @@
+#intro {
+    background-image: url(/assets/images/Background_Intro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+
+#header {
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.avatar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    .user img {
+        max-width: 120px;
+        border-radius: 50%;
+        padding: 4px;
+        border: 2px solid var(--main-red);
+    }
+
+    .code-icon img {
+        max-width: 45px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        line-height: 0;
+        transform: translate(-600%, 0);
+    }
+}
+
+.intro-text {
+    text-align: center;
+    margin-top: 56px;
+
+    .intro-title h2 {
+        font: var(--subtitle);
+
+        em {
+            font-style: normal;
+            color: var(--main-red);
+        }
+    }
+
+    .intro-title h1 {
+        margin-top: 4px;
+        font: var(--title-lg);
+        color: var(--base-gray-600);
+    }
+
+    p {
+        margin-top: 20px;
+        font: var(--text-sm);
+        color: var(--base-gray-400);
+    }
+}
+
+.tags {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 754px;
+    margin: 0 auto;
+    gap: 16px;
+    margin-top: 80px;
+}
+
+.tag {
+    display: flex;
+    gap: 8px;
+    font: var(--text-md);
+    color: var(--base-gray-500);
+    background-color: var(--base-gray-300);
+    padding: 8px 16px;
+    border: 1.5px solid transparent;
+    border-radius: 999px;
+}
+
+.double-down img{
+    margin: 0 auto;
+    margin-top: 94px;
+}
+
+.tag.github:hover {
+    border: 1.5px solid var(--base-gray-400);
+}
+.tag.html:hover {
+    border: 1.5px solid var(--main-red);
+}
+.tag.css:hover {
+    border: 1.5px solid var(--main-blue);
+}
+.tag.js:hover {
+    border: 1.5px solid var(--main-yellow);
+}
+.tag.react:hover {
+    border: 1.5px solid var(--main-blue);
+}
+.tag.node:hover {
+    border: 1.5px solid var(--main-green);
+}
