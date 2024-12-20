@@ -1,49 +1,49 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --main-red: #E3646E;
-    --main-purple: #BB72E9;
-    --main-blue: #3996DB;
-    --main-green: #82BC4F;
-    --main-yellow: #EABD5F;
-    --base-gray-100: #0D0E11;
-    --base-gray-200: #16181D;
-    --base-gray-300: #292C34;
-    --base-gray-400: #878EA1;
-    --base-gray-500: #C0C4CE;
-    --base-gray-600: #E2E4E9;
+  --main-red: #e3646e;
+  --main-purple: #bb72e9;
+  --main-blue: #3996db;
+  --main-green: #82bc4f;
+  --main-yellow: #eabd5f;
+  --base-gray-100: #0d0e11;
+  --base-gray-200: #16181d;
+  --base-gray-300: #292c34;
+  --base-gray-400: #878ea1;
+  --base-gray-500: #c0c4ce;
+  --base-gray-600: #e2e4e9;
 
-    --asap-font-family: 'Asap', sans-serif;
-    --inconsolata-font-family: 'Inconsolata', sans-serif;
-    --maven-font-family: 'Maven Pro', sans-serif;
-    --title-lg: 700 3.5rem/120% var(--asap-font-family);
-    --title-md: 700 1.5rem/120% var(--asap-font-family);
-    --title-sm: 700 1rem/120% var(--asap-font-family);
-    --subtitle: 400 1.25rem/120% var(--inconsolata-font-family);
-    --text-md: 400 1rem/140% var(--maven-font-family);
-    --text-sm: 400 0.875rem/140% var(--maven-font-family);
+  --asap-font-family: "Asap", sans-serif;
+  --inconsolata-font-family: "Inconsolata", sans-serif;
+  --maven-font-family: "Maven Pro", sans-serif;
+  --title-lg: 700 3.5rem/120% var(--asap-font-family);
+  --title-md: 700 1.5rem/120% var(--asap-font-family);
+  --title-sm: 700 1rem/120% var(--asap-font-family);
+  --subtitle: 400 1.25rem/120% var(--inconsolata-font-family);
+  --text-md: 400 1rem/140% var(--maven-font-family);
+  --text-sm: 400 0.875rem/140% var(--maven-font-family);
 }
 
 body {
-    background-color: var(--base-gray-200);
-    color: var(--base-gray-500);
+  background-color: var(--base-gray-200);
+  color: var(--base-gray-500);
 }
 
 img {
-    display: block;
+  display: block;
 }
 
 a {
-    text-decoration: none;
-    color: var(--base-gray-500);
-    border: 1.5px solid transparent;
+  text-decoration: none;
+  color: var(--base-gray-500);
+  border: 1.5px solid transparent;
 }
 
 a:hover {
-    border: 1.5px solid var(--main-blue);
-    border-radius: 8px;
+  border: 1.5px solid var(--main-blue);
+  border-radius: 8px;
 }

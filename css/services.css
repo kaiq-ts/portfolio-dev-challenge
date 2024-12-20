@@ -1,72 +1,71 @@
 #services {
-    background-color: var(--base-gray-100);
-    margin: 0 auto;
-    margin-top: 144px;
+  background-color: var(--base-gray-100);
+  margin: 0 auto;
+  margin-top: 144px;
 }
 
 .services-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 88px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 88px;
 
-    h2 {
-        font: var(--subtitle);
-        color: var(--main-red);
-    }
+  h2 {
+    font: var(--subtitle);
+    color: var(--main-red);
+  }
 
-    p {
-        margin-top: 8px;
-        font: var(--title-md);
-        color: var(--base-gray-600);
-    }
+  p {
+    margin-top: 8px;
+    font: var(--title-md);
+    color: var(--base-gray-600);
+  }
 }
 
 .services-itens {
-    display: flex;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 56px;
-    column-gap: 24px;
-    max-width: 900px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 56px;
+  column-gap: 24px;
+  max-width: 900px;
 }
 
 .services-card {
-    padding: 20px;
-    border: 2px solid var(--base-gray-200);
-    border-radius: 12px;
-    margin-bottom: 120px;
+  padding: 20px;
+  border: 2px solid var(--base-gray-200);
+  border-radius: 12px;
+  margin-bottom: 120px;
 
+  .infinity-icon {
+    margin-top: 12px;
+  }
 
-    .infinity-icon {
-        margin-top: 12px;
+  .services-info {
+    margin-top: 20px;
+
+    h3 {
+      font: var(--title-sm);
+      color: var(--base-gray-600);
     }
-    
-    .services-info {
-        margin-top: 20px;
 
-        h3 {
-            font: var(--title-sm);
-            color: var(--base-gray-600);
-        }
-
-        p {
-            margin-top: 8px;
-            font: var(--text-sm);
-            color: var(--base-gray-500);
-        }
+    p {
+      margin-top: 8px;
+      font: var(--text-sm);
+      color: var(--base-gray-500);
     }
+  }
 }
 
 .pc:hover {
-    border: 2px solid var(--main-purple);
+  border: 2px solid var(--main-purple);
 }
 
 .hd:hover {
-    border: 2px solid var(--main-yellow);
+  border: 2px solid var(--main-yellow);
 }
 
 .infinity:hover {
-    border: 2px solid var(--main-green);
+  border: 2px solid var(--main-green);
 }
