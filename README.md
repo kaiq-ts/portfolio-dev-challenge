@@ -1,6 +1,6 @@
 # Portfolio Dev
 
-A simple portfolio for dev's using HTML and CSS.
+A simple portfolio for dev's, using HTML and CSS.
 
 <p align="left">
      <a href="https://dev-portfolio-challenge.netlify.app/">📱 Visit this Project</a><br>
