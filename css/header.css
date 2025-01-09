@@ -47,6 +47,7 @@
 
   .intro-title h2 {
     font: var(--subtitle);
+    font-size: clamp(1rem, 3vw, 1.25rem);
 
     em {
       font-style: normal;
@@ -57,6 +58,7 @@
   .intro-title h1 {
     margin-top: 4px;
     font: var(--title-lg);
+    font-size: clamp(2rem, 5vw, 3.5rem);
     color: var(--base-gray-600);
   }
 
@@ -71,7 +73,6 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  max-width: 754px;
   margin: 0 auto;
   gap: 16px;
   margin-top: 80px;

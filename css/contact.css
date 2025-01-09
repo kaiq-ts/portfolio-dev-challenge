@@ -14,11 +14,13 @@
 
   h3 {
     font: var(--subtitle);
+    font-size: clamp(1rem, 3vw, 1.25rem);
     color: var(--main-purple);
   }
 
   h2 {
     font: var(--title-md);
+    font-size: clamp(1.2rem, 3vw, 1.5rem);
     color: var(--base-gray-600);
     margin-top: 8px;
   }
