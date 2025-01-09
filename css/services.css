@@ -71,3 +71,19 @@
 .infinity:hover {
   border: 2px solid var(--main-green);
 }
+
+@media (width <= 800px) {
+  .services-itens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .services-card {
+      margin-bottom: 20px;
+    }
+
+    .services-card:nth-child(3) {
+      margin-bottom: 120px;
+    }
+  }
+}
