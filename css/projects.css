@@ -25,11 +25,10 @@
 }
 
 .projects-itens {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
-  row-gap: 24px;
+  gap: 24px;
   margin-top: 56px;
 }
 
@@ -44,6 +43,7 @@
   padding: 12px;
 
   img {
+    width: 100%;
     border-radius: 8px;
   }
 
@@ -66,4 +66,18 @@
 
 .card:hover {
   border: 1.5px solid var(--base-gray-400);
+}
+
+@media (width <= 700px) {
+  .projects-itens {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width <= 400px) {
+  .projects-itens {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }

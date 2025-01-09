@@ -33,6 +33,10 @@ body {
   color: var(--base-gray-500);
 }
 
+section {
+  padding-inline: 8px;
+}
+
 img {
   display: block;
 }
